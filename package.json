@@ -1,0 +1,18 @@
+{
+  "name": "anzen-industries-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal backend API for Reactor Intelligence telemetry",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
+
