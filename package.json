@@ -1,8 +1,8 @@
 {
-  "name": "anzen-industries-backend",
+  "name": "tera-backend",
   "version": "0.1.0",
   "private": true,
-  "description": "Minimal backend API for Reactor Intelligence telemetry",
+  "description": "Minimal backend API for Tera Reactor Intelligence telemetry",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch index.js",

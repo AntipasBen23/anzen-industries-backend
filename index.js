@@ -23,7 +23,7 @@ const supabase = supabaseUrl && supabaseServiceRoleKey
 app.get('/health', (_req, res) => {
   res.json({
     ok: true,
-    service: 'anzen-backend',
+    service: 'tera-backend',
     supabaseConfigured: Boolean(supabase),
     timestamp: new Date().toISOString(),
   });
